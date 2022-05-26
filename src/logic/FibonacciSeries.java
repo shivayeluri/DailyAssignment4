@@ -14,6 +14,7 @@ public class FibonacciSeries {
             for (int i = 0; i < maxNumber; i++) {
                 System.out.print(fibonacciRecursion(i) + " ");
             }
+            System.out.println(" ");
         }catch (Exception e){
             System.out.println(e);
         }
